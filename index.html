@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--Sets the viewport to the width of device's screen-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>To-Do List Assignment</title>
+<!--Links the HTML file to the CSS file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="todo">
+<!--Adds heading with an icon-->
+        <h2>To-Do List <img src="images/icon.png"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text">
+<!-- When ADD button will be clicked addTask() is invoked-->
+            <button onclick="addTask()">Add</button> 
+        </div>
+        <ul id="list-container">
+        </ul>
+    </div>
+</div>
+<!--Links HTML file with JS file-->
+<script src="script.js"></script>
+</body>
+</html>
